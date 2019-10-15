@@ -1,0 +1,44 @@
+
+// Menu, Ícone e Caixas de diálogo Como usar e Sobre
+
+//-------------------------------------------------------------------------------------------------
+
+#include "windows.h"
+#include "resource.h"
+
+IDR_MMENU MENU
+BEGIN
+    POPUP "& Arquivo"
+    BEGIN
+        MENUITEM "& Sair", ID_ARQUIVO_SAIR
+    END
+
+    POPUP "& Ajuda"
+    BEGIN
+        MENUITEM "& Como usar",ID_AJUDA
+        MENUITEM "& Sobre",ID_SOBRE
+    END
+END
+
+IDI_MICON ICON "metro.ico"
+
+IDD_AJUDA DIALOG DISCARDABLE  0, 0, 430,165
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ajuda"
+FONT 9, "Segoe UI"
+BEGIN
+    GROUPBOX        "Como usar",101,5,5,420,156
+    LTEXT           "O melhor trajeto é calculado em função do tempo de viagem de uma estação para outra utilizando o algoritmo de Dijkstra. \n\nCalculando o melhor trajeto:\n\n1 -Selecione a estação de origem\n2 - Selecione a estação de destino\n3 - Digite a velociade do metrô\n4 - Digite o tempo de baldeação (tempo de espera necessário para mudar de uma estação para a outra)\n5 - Clique em 'Calcular o melhor trajeto'\n6 - O resultado irá aparecer nos quadros:\n     Dados: Distância percorrida e tempo de viagem\n     Trajeto: Descrição do caminho percorrido\n     No mapa ao lado\n*O botão Reset limpa os quadros 'Dados' e 'Trajeto'\n\nObs - As informações sobre distância fornecidas não retratam a realidade, os alunos  não se responsabilizam pelo uso indevido dos resultados aqui apresentados.\n",
+                    101,16,18,396,137
+END
+
+IDD_SOBRE DIALOG DISCARDABLE  0, 0, 270,129
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ajuda"
+FONT 9, "Segoe UI"
+BEGIN
+    GROUPBOX        "Sobre",101,5,5,260,120
+    CTEXT           "Universidade Federal do Vale do São Francisco - UNIVASF",101,16,18,236,30
+    LTEXT           "Disciplina: Algoritmos e Estrutura de Dados II\nProjeto: Algoritmo de Dijkstra aplicado ao problema do Metrô de Paris\n\nDocente: Ana Emília de Melo Queiroz\n\nDiscentes:\nAllisson Pierre Lino Gomes\nCaroline Carvalho Machado\nEsron Dtamar da Silva\nPedro Henrique Duarte Santana",
+                    101,16,38,236,80
+END

@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1394030206 source:c:\users\carol\desktop\metroparis\main.c
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"resource.h"
+	"funcoes_lista.h"
+	"inserir_arquivo.h"
+	"menor_peso.h"
+	"dijkstra.h"
+	"DesenharBlocos.h"
+	"Processo.h"
+
+1393964140 c:\users\carol\desktop\metroparis\desenharblocos.h
+
+1393896734 c:\users\carol\desktop\metroparis\wndproc.h
+	"imprime.h"
+
+1392928559 c:\users\carol\desktop\metroparis\funcoes_lista.h
+
+1393794496 c:\users\carol\desktop\metroparis\inserir_arquivo.h
+
+1394044424 c:\users\carol\desktop\metroparis\menor_peso.h
+
+1393886247 c:\users\carol\desktop\metroparis\dijkstra.h
+
+1394033553 c:\users\carol\desktop\metroparis\imprime.h
+
+1394047291 c:\users\carol\desktop\metroparis\resource.h
+
+1394047291 source:c:\users\carol\desktop\metroparis\mres.rc
+	"windows.h"
+	"resource.h"
+
+1394043819 c:\users\carol\desktop\metroparis\processo.h
+	"imprime.h"
+
+1394074962 source:c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\main.c
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"resource.h"
+	"funcoes_lista.h"
+	"inserir_arquivo.h"
+	"menor_peso.h"
+	"dijkstra.h"
+	"DesenharBlocos.h"
+	"Processo.h"
+
+1394056603 c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\resource.h
+
+1394056603 c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\funcoes_lista.h
+
+1393794496 c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\inserir_arquivo.h
+
+1394076129 c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\menor_peso.h
+
+1394056603 c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\dijkstra.h
+
+1394055410 c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\desenharblocos.h
+
+1394076468 c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\processo.h
+	"imprime.h"
+
+1394074962 c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\imprime.h
+
+1394056937 source:c:\users\carol\univasf\algoritmo e estruturas de dados\2\grafos\nova pasta\metroparis\mres.rc
+	"windows.h"
+	"resource.h"
+
